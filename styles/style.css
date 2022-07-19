@@ -109,7 +109,7 @@ body{
     background-color: #fff;
     color: #161616;
     border-radius: 10px;
-    font-size: 20px;
+    font-size: 1.3em;
     font-weight: 500;
     transition: all .3s ease;
 }
@@ -162,4 +162,42 @@ body{
     margin-bottom: 20px;
     font-size: 18px;
     font-weight: 500;
+}
+
+/*--------------------------
+       Footer Area Styles 
+  -------------------------*/
+
+.footer{
+    background-color: #161616;
+    width: 100%;
+    color: #fff;
+    margin-top: 120px;
+    padding: 100px;
+}
+.main-footer h3{
+    font-size: 3em;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 70px;
+}
+.footer-nav{
+    text-align: center;
+    font-size: 16px;
+    padding: 50px 0;
+}
+.footer-nav nav ul li{
+    display: inline-block;
+    list-style: none;
+}
+.footer-nav nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 40px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+hr{
+    border: 1px solid #333;
 }
