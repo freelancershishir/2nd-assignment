@@ -103,6 +103,7 @@ body{
     display: flex;
     flex-direction: column;
     text-align: center;
+   justify-content: center;
 }
 .match-details .match-left ul li a{
     text-decoration: none;
@@ -225,6 +226,9 @@ hr{
 
 
 /* Media Query */
+
+/* Tablets */
+
 @media screen and (min-width: 768px) and (max-width:1023px) {
     .header{
         height: 570px;
@@ -255,6 +259,8 @@ hr{
     .match-details .match-left ul li{
         display: grid;
         grid-template-columns: repeat(3,1fr);
+        align-items: center;
+        width: 100%;
     }
     .match-details .match-left ul li a{
         border: 1px solid #999;
@@ -334,4 +340,26 @@ hr{
         display: flex;
         flex-direction: column;
     }
+}
+@media screen and (min-width: 1024px) and (max-width:1440px){
+    .header{
+        display: grid;
+        height: 660px;
+        grid-template-columns: 2fr auto;
+    }
+    .header-info h1{
+        font-size: 40px;
+    }
+    .header-info a{
+        padding: 10px 30px;
+    }
+    .blogs{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .single-blog:last-child{
+        display: none;
+    }
+    .read-more{
+    opacity: 1;
+   }
 }
